@@ -8,6 +8,8 @@ body {
 .header {
     display: flex;
     align-items: center;
+    border-style: solid;
+    border-color: pink;
 }
 .content {
     display: flex;
@@ -26,7 +28,7 @@ body {
     flex: 1;
     text-align: center;
     padding: 10px;
-    border-style: solid;
+    border-top: solid;
     border-color: yellow;
 }
 
@@ -61,6 +63,7 @@ body {
     flex-direction: column;
     border-style: solid;
     border-color: purple;
+
 }
 
 .left-column {
@@ -75,6 +78,8 @@ body {
     flex: 1;
     text-align: center;
     padding: 10px;
+    border-style: solid;
+    border-color: orange;
 }
 
 /* Different background colors for right column items */
@@ -99,7 +104,8 @@ body {
     text-align: center;
     padding: 10px;
     border-style: solid;
-    border-color: green;
+    border-color: green
+
 }
 
 .footer-column:nth-child(1) {
